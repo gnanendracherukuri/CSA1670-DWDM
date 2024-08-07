@@ -1,0 +1,4 @@
+a=as.integer(readline("enter the first number"))
+b=as.integer(readline("enter the second number"))
+s=a*b
+cat("difference=",s)
