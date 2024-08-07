@@ -1,0 +1,11 @@
+df<-data.frame(
+  name=c("ravi","arun","tharun"),
+  weight=c(25,30,35),
+  height=c(5.5,6.0,5.8)
+)
+plot(x=df$weight,
+  y=df$weight,
+  main="height vs milage",
+  xlab="height",
+  ylab="weight",
+)
