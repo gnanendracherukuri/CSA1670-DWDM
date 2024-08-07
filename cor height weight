@@ -1,0 +1,8 @@
+df<-data.frame(
+  name=c("ravi","arun","tharun"),
+  weight=c(25,30,35),
+  height=c(5.5,6.0,5.8)
+)
+rel=cor(df$height,df$weight)
+print(rel)
+print(cor.test(df$height,df$weight))
