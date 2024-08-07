@@ -1,0 +1,14 @@
+df<-data.frame(
+  name=c("ravi","arun","tharun"),
+  age=c(25,30,35),
+  height=c(5.5,6.0,5.8)
+)
+A=c(df$age)
+mean=mean(A)
+min=min(A)
+max=max(A)
+minmax=(A-min)/(max-min)
+cat("mean=",mean)
+cat("min=",min)
+cat("max=",max)
+cat("minmax=",minmax)
