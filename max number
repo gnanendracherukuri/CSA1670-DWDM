@@ -1,0 +1,5 @@
+a=as.integer(readline("enter the first number:"))
+b=as.integer(readline("enter the second number:"))
+c=as.integer(readline("enter the thrid number:"))
+s=max(a,b,c)
+cat("max=",s)
