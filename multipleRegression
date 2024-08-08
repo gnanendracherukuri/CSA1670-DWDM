@@ -1,0 +1,6 @@
+data(mtcars)
+head(mtcars)
+model <- lm(mpg ~ disp + hp + wt, data = mtcars)
+summary(model)
+par(mfrow = c(2, 2))
+plot(model)
